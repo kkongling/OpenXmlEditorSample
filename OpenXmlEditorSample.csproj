@@ -9,21 +9,21 @@
     <PackageReference Include="DocumentFormat.OpenXml" Version="3.3.0" />
 
     <!-- 以项目引用方式引入源生成器 -->
-    <ProjectReference Include="..\Open-XML-SDK\gen\DocumentFormat.OpenXml.Generator\DocumentFormat.OpenXml.Generator.csproj"
+    <ProjectReference Include="..\OpenXmlGenerator\gen\DocumentFormat.OpenXml.Generator\DocumentFormat.OpenXml.Generator.csproj"
                       PrivateAssets="all"
                       ReferenceOutputAssembly="false"
                       OutputItemType="Analyzer" />
-    <ProjectReference Include="..\Open-XML-SDK\gen\DocumentFormat.OpenXml.Generator.Models\DocumentFormat.OpenXml.Generator.Models.csproj"
+    <ProjectReference Include="..\OpenXmlGenerator\gen\DocumentFormat.OpenXml.Generator.Models\DocumentFormat.OpenXml.Generator.Models.csproj"
                       PrivateAssets="all"
                       ReferenceOutputAssembly="false"
                       OutputItemType="Analyzer" />
 
     <!-- 将 OpenXML 架构文件作为附加输入，供生成器使用 -->
-    <AdditionalFiles Include="..\Open-XML-SDK\data\schemas\*.json" />
-    <AdditionalFiles Include="..\Open-XML-SDK\data\parts\*.json" />
-    <AdditionalFiles Include="..\Open-XML-SDK\data\typed\*.json" />
-    <AdditionalFiles Include="..\Open-XML-SDK\data\namespaces.json" />
-    <AdditionalFiles Include="..\Open-XML-SDK\data\schematrons.json" />
+    <AdditionalFiles Include="..\OpenXmlGenerator\data\schemas\*.json" />
+    <AdditionalFiles Include="..\OpenXmlGenerator\data\parts\*.json" />
+    <AdditionalFiles Include="..\OpenXmlGenerator\data\typed\*.json" />
+    <AdditionalFiles Include="..\OpenXmlGenerator\data\namespaces.json" />
+    <AdditionalFiles Include="..\OpenXmlGenerator\data\schematrons.json" />
 
   </ItemGroup>
 
