@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <!-- 启用生成器输出文件 -->
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>obj\GeneratedFiles</CompilerGeneratedFilesOutputPath>
+  </PropertyGroup>
+</Project>
